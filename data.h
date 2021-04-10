@@ -3,9 +3,6 @@
 #include <iostream>
 #include <vector>
 
-
-using namespace std;
-
 class Data
 {
     public:
@@ -20,5 +17,5 @@ class Data
         void wyswietl();
 };
 
-bool czy_jest_liczba_data(string);
+bool czy_jest_liczba_data(std::string);
 #endif // DATA_H_INCLUDED
